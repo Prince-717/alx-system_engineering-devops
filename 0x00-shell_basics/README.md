@@ -8,3 +8,7 @@ The 2-bring-me-home script changes the working directory to the user's home dire
 
 
 The 3-listfiles script displays current directory in long format.
+
+
+The 4-listmorefiles script displays all displays all files a
+nd directories in current directory.
