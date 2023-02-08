@@ -15,3 +15,6 @@ nd directories in current directory.
 
 
 The 5-listfilesdigitonly script displays all contents of a file including hidden ones with user and group IDs displayed numerically.
+
+
+The 6-firstdirectory script creates a directory named my-first-directory /tmp/ directory.
