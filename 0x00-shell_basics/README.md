@@ -18,3 +18,6 @@ The 5-listfilesdigitonly script displays all contents of a file including hidden
 
 
 The 6-firstdirectory script creates a directory named my-first-directory /tmp/ directory.
+
+
+The 7-movethatfile script moves a file named betty from /tmp/ to /tmp/my-first-directory.
