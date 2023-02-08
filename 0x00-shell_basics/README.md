@@ -5,3 +5,6 @@ The 1-listit script lists the files and folders of the current directory.
 
 
 The 2-bring-me-home script changes the working directory to the user's home directory.
+
+
+The 3-listfiles script displays current directory in long format.
