@@ -30,3 +30,6 @@ The 9-firstdirdeletion script deletes the directory my-first-directory from /tmp
 
 
 The 10-back script changes the working directory to the previous one.
+
+
+The 11-lists script list all the files in a given number of different directories.
