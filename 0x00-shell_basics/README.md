@@ -33,3 +33,6 @@ The 10-back script changes the working directory to the previous one.
 
 
 The 11-lists script list all the files in a given number of different directories.
+
+
+The 12-file-type script that prints the type of the file named iamafile. The file iamafile will be in the /tmp directory when we will run your script.
