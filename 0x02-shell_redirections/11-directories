@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -print | wc -l
+ls -l | grep "^d" | grep -v "^d.*\." | wc -l
