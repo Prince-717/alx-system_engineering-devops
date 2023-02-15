@@ -1,0 +1,2 @@
+#!/bin/bash
+echo $(( 10#${WATER} + ${STIR} )) > >(bc -q) | tr -d '\\\n' > >(echo -n) && echo "; obase=bestchol" | bc
