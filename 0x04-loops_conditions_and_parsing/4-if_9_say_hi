@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+#Creating a script that uses an if statement
+h=1
+while [ $h -le 10 ]
+do
+    echo "Holberton School"
+    if [ $h -eq 9 ]
+    then
+	echo "Hi"
+    fi
+    ((h++))
+done
