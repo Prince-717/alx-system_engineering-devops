@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# A script that displays Best School 10 times using for
+
+for ((index = 1; index <= 10; index++))
+do
+    echo "Best School"
+done
