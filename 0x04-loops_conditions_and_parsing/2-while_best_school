@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+#Creating a script that uses a while loop
+
+h=1
+
+while [ $h -le 10 ]
+do
+    echo "Holberton School"
+    h=$(( h + 1 ))
+done
