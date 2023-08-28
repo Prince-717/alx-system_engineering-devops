@@ -1,3 +1,4 @@
+# This file creates a file at /tmp
 file { '/tmp/school':
   ensure  => file,          # Ensure that the file exists
   mode    => '0744',        # Set the file permissions
