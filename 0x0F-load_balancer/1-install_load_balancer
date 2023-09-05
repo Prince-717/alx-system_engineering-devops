@@ -14,7 +14,7 @@ frontend http_front
  default_backend http_back
 backend http_back
 balance roundrobin
+server 239360-web-01 54.87.143.206 check
 server 239360-web-02 100.25.149.219 check
-server 239360-lb-01 100.26.213.148 check
 " | sudo tee -a /etc/haproxy/haproxy.cfg
 sudo service haproxy restart
