@@ -1,0 +1,42 @@
+What goes on when you type google.com in your browser and press Enter
+
+
+Introduction:
+
+Ever pondered the intricate workings behind the scenes when you enter a web address into your browser? It’s a captivating interplay of diverse technologies and protocols harmonizing effortlessly to deliver the content you seek. In this article, we’ll dissect the journey that transpires when you type “https://www.google.com" into your browser and hit Enter.
+
+DNS Inquiry:
+
+The voyage commences with a DNS (Domain Name System) inquiry. When you key in a web address like “www.google.com," your browser embarks on a quest to locate the corresponding IP address. It dispatches a plea to a DNS server, acting as an internet directory service. The DNS server translates the human-readable domain name into an IP address (such as converting “www.google.com" into an IP address like 172.217.164.196).
+
+TCP/IP Protocol:
+
+Subsequently, once the DNS server bestows the IP address, your browser enlists the assistance of the TCP/IP (Transmission Control Protocol/Internet Protocol) suite to forge a connection. TCP/IP embodies a set of principles governing the transmission, reception, and routing of data packets across the internet.
+
+Firewall Safeguard:
+
+Before reaching its final destination server, data packets might traverse firewalls. These sentinels serve as a security bastion, scrutinizing and sieving through incoming and outgoing network traffic in accordance with a predefined set of rules. They act as a bulwark against unauthorized access and potential security breaches.
+
+HTTPS/SSL Security:
+
+Security is paramount in contemporary web browsing. HTTPS (Hypertext Transfer Protocol Secure) guarantees that the data interchanged between your browser and the web server is shielded by encryption. This is achieved through SSL (Secure Sockets Layer) or its successor, TLS (Transport Layer Security). This encryption is particularly crucial when sensitive information, like passwords or credit card details, is in transit.
+
+Load-Balancing Act:
+
+Prominent websites like Google contend with an enormous influx of requests. To ensure optimal distribution, they employ load balancers. These balancers allocate incoming traffic across an array of servers, preventing any single server from becoming inundated, thus enhancing the website’s performance and resilience.
+
+Web Server Operation:
+
+Once the request lands at Google’s servers, a web server takes charge. Its role encompasses handling HTTP requests, dynamically generating web pages if required, and furnishing the pertinent content to the client (your browser).
+
+Application Server Engagement:
+
+In the realm of dynamic web pages or web applications, an application server may step in. It executes business logic, interfaces with databases, and generates dynamic content in response to the user’s request. For Google, this could involve processing search queries and presenting personalized content.
+
+Database Interaction:
+
+For retrieving specific information, such as search results, the application server may communicate with a database. Databases serve as repositories and overseers of extensive troves of structured data, allowing the application server to fetch the pertinent information prior to forwarding it to the web server for presentation.
+
+Conclusion:
+
+The expedition from entering “https://www.google.com" to perusing the search results entails a choreographed ensemble of technologies, each contributing a pivotal role. From DNS resolution to encryption, load balancing, and database queries, every step is meticulously orchestrated to afford a seamless and secure web browsing experience. Comprehending this process bestows a deeper admiration for the intricacy and sophistication that underlie our day-to-day internet interactions.
