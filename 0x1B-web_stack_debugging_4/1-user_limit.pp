@@ -1,13 +1,10 @@
-# This manuscript enables the user holberton to login and open files without error
-
-# Increase hard file limit for user holberton
-exec { 'increase-hard-file-limit-for-holberton-user':
-  command => 'sed -i "/holberton hard/s/5/50000/" /etc/security/limits.conf',
-  path    => '/usr/local/bin/:/bin/'
+# puppet manifest to edit /etc/security limits.conf
+exec { 'fix hard nofile limit':
+  command => 'sed -i \'s/^holberton hard nofile.*/holberton hard nofile 65535/g\' /etc/security/limits.conf',
+  path    => '/bin/',
 }
 
-# Increase soft file limit for user holberton
-exec { 'increase-soft-file-limit-for-holberton-user':
-  command => 'sed -i "/holberton soft/s/4/50000/" /etc/security/limits.conf',
-  path    => '/usr/local/bin/:/bin/'
+exec { 'fix soft nofile limit':
+  command => 'sed -i \'s/^holberton soft nofile.*/holberton soft nofile 65535/g\' /etc/security/limits.conf',
+  path    => '/bin/',
 }
